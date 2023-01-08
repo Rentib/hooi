@@ -31,7 +31,7 @@ error(const char *fmt, ...)
 {
   va_list ap;
 
-  fputs("error: ", stderr);
+  fputs("hooi: error: ", stderr);
   va_start(ap, fmt);
   vfprintf(stderr, fmt, ap);
   va_end(ap);
@@ -75,7 +75,7 @@ main(int argc, char *argv[])
     const char *flag = shift(&argc, &argv);
 
     if (!strcmp(flag, "-o")) {
-      if (argc <= 0) error("argument to '%s' is missing");
+      if (argc <= 0) error("argument to '%s' is missing", flag);
       output = shift(&argc, &argv);
     } else if (!strcmp(flag, "-h")) {
       usage(stderr);

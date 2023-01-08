@@ -5,7 +5,7 @@ CFLAGS = -std=c99 -pedantic -Wall -Wextra -O0 -ggdb $(CPPFLAGS)
 LDFLAGS =
 CC = cc
 
-SRC = hooi.c
+SRC = hooi.c sv.c
 OBJ = $(SRC:.c=.o)
 
 all: options hooi
