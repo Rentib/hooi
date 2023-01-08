@@ -1,6 +1,6 @@
 /*
   hooi, a chess engine.
-  Copyright (C) 2022 Stanisław Bitner <sbitner420@tutanota.com>
+  Copyright (C) 2023 Stanisław Bitner <sbitner420@tutanota.com>
 
   hooi is free software: you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
